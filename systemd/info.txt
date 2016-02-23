@@ -3,3 +3,18 @@ See his original report here:
 
 http://kea.isc.org/ticket/3529
 
+Kea is now packaged in RedHat, Fedora and CentOS:
+https://lists.isc.org/pipermail/kea-users/2016-January/000208.html
+Packages for those distros use systemd scripts.
+
+Kea is now packaged in Debian, too. See the annoucement here:
+https://lists.isc.org/pipermail/kea-users/2016-February/000246.html
+
+Direct link to Debian packages (that include systemd scripts):
+https://packages.debian.org/source/sid/isc-kea
+(see isc-kea_X.Y.Z-W.debian.tar.xz file on that page).
+
+For a complete list of Kea packages, see
+http://kea.isc.org/wiki/Install#InstallKeafrompackages
+
+Some of those packages are using systemd scripts.
