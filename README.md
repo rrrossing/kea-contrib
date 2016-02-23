@@ -11,8 +11,11 @@ content here rather than in the main Kea repository. To give two
 examples, Linux distribution specific scripts is something that is
 similar between distributions, but may vary a bit. Users of distribution
 A may prefer the script to look differently than users of distribution
-B. That ISC could get an endless stream of patches changes the script
-back and forth and this is something we'd like to avoid.
+B. Note there is not the right or wrong way here. Nevertheless ISC could
+get an endless stream of patches changes the script back and forth and
+this is something we'd like to avoid. Also, ISC prefers to work on the
+Kea code that could benefit all users, regardless of which OS or
+distribution they use.
 
 Second example are patches that ISC has no way of checking or maintaining
 on its own. For example, someone could donate a patch that stores
