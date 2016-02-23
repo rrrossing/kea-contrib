@@ -1,0 +1,12 @@
+[Unit]
+Description=Kea DHCPv4 Server
+Documentation=man:kea-dhcp4(8)
+Wants=network-online.target
+After=network-online.target
+After=time-sync.target
+
+[Service]
+ExecStart=@sbindir@/kea-dhcp4 -c @sysconfdir@/kea/kea.conf
+
+[Install]
+WantedBy=multi-user.target
