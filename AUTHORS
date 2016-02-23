@@ -1,0 +1,14 @@
+
+ Kea-contrib contributors
+--------------------------
+
+This repository contains contributions from the following people:
+
+ - Jiri Popelka, Red Hat
+   2014-08: systemd scripts
+
+When sending a pull request, feel free to update this file.
+
+For complete list of people who contributed to the Kea project,
+see AUTHORS file in the Kea sources or Kea source repository, available
+at http://github.com/isc-projects/kea
